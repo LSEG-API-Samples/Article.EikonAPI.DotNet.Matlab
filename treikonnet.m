@@ -2,7 +2,7 @@ classdef treikonnet < handle
 %
 %   T = TREIKONNET(eikonsdkpath) loads Eikon .NET SDK assemblies
 %   from the location specified in eikonsdkpath parameter
-%   and makes connection to Thomson Reuters Eikon application.
+%   and makes connection to Refinitiv Eikon application.
 %   If Eikon is not already running it will be launched.
 %
 
@@ -16,7 +16,7 @@ methods (Access = 'public')
     function t = treikonnet(eikonsdkpath)
         
         if exist([eikonsdkpath 'ThomsonReuters.Desktop.SDK.DataAccess.dll'],'file') ~= 2
-            error(['Thomson Reuters Eikon .NET SDK not found in the specified folder: ' eikonsdkpath]);
+            error(['Eikon .NET SDK not found in the specified folder: ' eikonsdkpath]);
         end
         
         %Load Eikon .NET SDK assemblies
