@@ -4,6 +4,6 @@ This example illustrates how Eikon .NET SDK can be used in Matlab to retrieve ti
 
 **Pre-requisites:** 
 
-Thomson Reuters Eikon 4.0.27 or later  
+Refinitiv Eikon 4.0.27 or later  
 Matlab R2016b or later  
 Visual Studio or Nuget (optional)  
