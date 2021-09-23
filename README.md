@@ -1,6 +1,6 @@
 # Using Eikon .NET SDK in Matlab
 
-This example illustrates how Eikon .NET SDK can be used in Matlab to retrieve timeseries of price history and to subscribe to streaming market data. It accompanies the article titled ["Using Eikon .NET SDK in Matlab"](https://developers.refinitiv.com/article/using-eikon-net-sdk-matlab) on Refinitiv Developer Portal.
+This example illustrates how Eikon .NET SDK can be used in Matlab to retrieve timeseries of price history and to subscribe to streaming market data. It accompanies the article titled ["Using Eikon .NET SDK in Matlab"](https://developers.refinitiv.com/en/article-catalog/article/using-eikon-net-sdk-matlab) on Refinitiv Developer Portal.
 
 **Pre-requisites:** 
 
